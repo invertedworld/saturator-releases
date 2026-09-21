@@ -21,8 +21,9 @@ release](../../releases/latest).**
 - **Per band:** Drive; Dynamics, which pushes the drive up (or pulls it down) as the band
   gets louder; Tone, darker or brighter; a low cut on the saturation, from 6 dB/oct to a
   brick wall; a mid/side balance; and Amount.
-- **M** mutes a band's saturation, **S** solos the band, and **D** plays only what
-  Saturator changes.
+- **M** mutes a band's saturation; **S** solos it, so the whole track plays with only the
+  soloed bands saturating; **A** auditions it, playing only what the band adds. Shift-click
+  turns any of them off on every band. **D** plays only what Saturator changes.
 - **Oversampling** from 1x to 32x, set separately for playing and for offline bounces, with
   an estimate of any aliasing and the rate that would clear it.
 
@@ -49,7 +50,8 @@ signed with a Developer ID and notarised by Apple.
    untouched.
 2. Click **+**, or drag across the analyser where you want a band.
 3. Click the harmonics thumbnail to choose a model, and turn up **Drive**.
-4. Press **S** to hear the band on its own, or **D** to hear only what Saturator adds.
+4. Press **A** to hear only the band's saturation, **S** to hear the track with only that
+   band saturating, or **D** to hear only what Saturator changes.
 
 Turn on help with the **?** in the header, then point at anything to see what it does.
 
